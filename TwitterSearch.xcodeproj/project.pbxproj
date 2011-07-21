@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCCC2CBC13D859320008B969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCC2CBB13D859320008B969 /* UIKit.framework */; };
+		BCCC2CBE13D859320008B969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCC2CBD13D859320008B969 /* Foundation.framework */; };
+		BCCC2CC013D859320008B969 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCC2CBF13D859320008B969 /* CoreGraphics.framework */; };
+		BCCC2CC613D859320008B969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CC413D859320008B969 /* InfoPlist.strings */; };
+		BCCC2CC913D859320008B969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCC2CC813D859320008B969 /* main.m */; };
+		BCCC2CCC13D859320008B969 /* TwitterSearchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCC2CCB13D859320008B969 /* TwitterSearchAppDelegate.m */; };
+		BCCC2CCF13D859320008B969 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CCD13D859320008B969 /* MainWindow.xib */; };
+		BCCC2CD213D859320008B969 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCC2CD113D859320008B969 /* RootViewController.m */; };
+		BCCC2CD513D859320008B969 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CD313D859320008B969 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCCC2CB713D859320008B969 /* TwitterSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCC2CBB13D859320008B969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCCC2CBD13D859320008B969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCCC2CBF13D859320008B969 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCCC2CC313D859320008B969 /* TwitterSearch-Info.plist */ = {isa = PBXFileReference; path = "TwitterSearch-Info.plist"; sourceTree = "<group>"; };
+		BCCC2CC513D859320008B969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCCC2CC713D859320008B969 /* TwitterSearch-Prefix.pch */ = {isa = PBXFileReference; path = "TwitterSearch-Prefix.pch"; sourceTree = "<group>"; };
+		BCCC2CC813D859320008B969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCCC2CCA13D859320008B969 /* TwitterSearchAppDelegate.h */ = {isa = PBXFileReference; path = TwitterSearchAppDelegate.h; sourceTree = "<group>"; };
+		BCCC2CCB13D859320008B969 /* TwitterSearchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterSearchAppDelegate.m; sourceTree = "<group>"; };
+		BCCC2CCE13D859320008B969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BCCC2CD013D859320008B969 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		BCCC2CD113D859320008B969 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BCCC2CD413D859320008B969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCC2CB413D859320008B969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCC2CBC13D859320008B969 /* UIKit.framework in Frameworks */,
+				BCCC2CBE13D859320008B969 /* Foundation.framework in Frameworks */,
+				BCCC2CC013D859320008B969 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCCC2CAC13D859320008B969 = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CC113D859320008B969 /* TwitterSearch */,
+				BCCC2CBA13D859320008B969 /* Frameworks */,
+				BCCC2CB813D859320008B969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCC2CB813D859320008B969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CB713D859320008B969 /* TwitterSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCC2CBA13D859320008B969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CBB13D859320008B969 /* UIKit.framework */,
+				BCCC2CBD13D859320008B969 /* Foundation.framework */,
+				BCCC2CBF13D859320008B969 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCCC2CC113D859320008B969 /* TwitterSearch */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CCA13D859320008B969 /* TwitterSearchAppDelegate.h */,
+				BCCC2CCB13D859320008B969 /* TwitterSearchAppDelegate.m */,
+				BCCC2CCD13D859320008B969 /* MainWindow.xib */,
+				BCCC2CD013D859320008B969 /* RootViewController.h */,
+				BCCC2CD113D859320008B969 /* RootViewController.m */,
+				BCCC2CD313D859320008B969 /* RootViewController.xib */,
+				BCCC2CC213D859320008B969 /* Supporting Files */,
+			);
+			path = TwitterSearch;
+			sourceTree = "<group>";
+		};
+		BCCC2CC213D859320008B969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CC313D859320008B969 /* TwitterSearch-Info.plist */,
+				BCCC2CC413D859320008B969 /* InfoPlist.strings */,
+				BCCC2CC713D859320008B969 /* TwitterSearch-Prefix.pch */,
+				BCCC2CC813D859320008B969 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCC2CB613D859320008B969 /* TwitterSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCC2CD813D859320008B969 /* Build configuration list for PBXNativeTarget "TwitterSearch" */;
+			buildPhases = (
+				BCCC2CB313D859320008B969 /* Sources */,
+				BCCC2CB413D859320008B969 /* Frameworks */,
+				BCCC2CB513D859320008B969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterSearch;
+			productName = TwitterSearch;
+			productReference = BCCC2CB713D859320008B969 /* TwitterSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCC2CAE13D859320008B969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Carnegie Mellon Qatar";
+			};
+			buildConfigurationList = BCCC2CB113D859320008B969 /* Build configuration list for PBXProject "TwitterSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCCC2CAC13D859320008B969;
+			productRefGroup = BCCC2CB813D859320008B969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCC2CB613D859320008B969 /* TwitterSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCC2CB513D859320008B969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCC2CC613D859320008B969 /* InfoPlist.strings in Resources */,
+				BCCC2CCF13D859320008B969 /* MainWindow.xib in Resources */,
+				BCCC2CD513D859320008B969 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCC2CB313D859320008B969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCC2CC913D859320008B969 /* main.m in Sources */,
+				BCCC2CCC13D859320008B969 /* TwitterSearchAppDelegate.m in Sources */,
+				BCCC2CD213D859320008B969 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCCC2CC413D859320008B969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCC2CC513D859320008B969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCCC2CCD13D859320008B969 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCC2CCE13D859320008B969 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BCCC2CD313D859320008B969 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCC2CD413D859320008B969 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCC2CD613D859320008B969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCCC2CD713D859320008B969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BCCC2CD913D859320008B969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterSearch/TwitterSearch-Prefix.pch";
+				INFOPLIST_FILE = "TwitterSearch/TwitterSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCCC2CDA13D859320008B969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterSearch/TwitterSearch-Prefix.pch";
+				INFOPLIST_FILE = "TwitterSearch/TwitterSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCC2CB113D859320008B969 /* Build configuration list for PBXProject "TwitterSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCC2CD613D859320008B969 /* Debug */,
+				BCCC2CD713D859320008B969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCC2CD813D859320008B969 /* Build configuration list for PBXNativeTarget "TwitterSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCC2CD913D859320008B969 /* Debug */,
+				BCCC2CDA13D859320008B969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCC2CAE13D859320008B969 /* Project object */;
+}
