@@ -2,8 +2,7 @@
 //  TwitterSearchAppDelegate.m
 //  TwitterSearch
 //
-//  Created by Fahad Islam on 7/21/11.
-//  Copyright 2011 Carnegie Mellon Qatar. All rights reserved.
+//  Copyright (c) <2011> <Fahad Islam>
 //
 
 #import "TwitterSearchAppDelegate.h"
@@ -21,6 +20,28 @@
     // Add the navigation controller's view to the window and display.
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    
+//    NSURL* url = [NSURL URLWithString:@"http://search.twitter.com/search.json?q=pakistan"];
+//    NSError* err = nil;
+//    NSString* string = [NSString stringWithContentsOfURL:url 
+//                                                encoding:NSUTF8StringEncoding 
+//                                                   error:&err];
+//    
+//    id var = [[JSONDecoder decoder] objectWithUTF8String:[string UTF8String] length:string.length];
+//    //NSLog(@"var: %@", var);
+//    NSArray* results = [var objectForKey:@"results"];
+//    //NSLog(@"The Results: %@", results);
+//    //NSLog(@"The Results count: %d", [results count]);
+//    
+//    NSString* post;
+//    NSString* user;    
+//    for (int i=0;i<[results count];i++)
+//    {
+//        post = [[results objectAtIndex:i] objectForKey:@"text"];
+//        user = [[results objectAtIndex:i] objectForKey:@"from_user"];
+//        NSLog(@"%@: %@", user, post);
+//    }
+    
     return YES;
 }
 

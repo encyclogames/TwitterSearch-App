@@ -2,8 +2,7 @@
 //  main.m
 //  TwitterSearch
 //
-//  Created by Fahad Islam on 7/21/11.
-//  Copyright 2011 Carnegie Mellon Qatar. All rights reserved.
+//  Copyright (c) <2011> <Fahad Islam>
 //
 
 #import <UIKit/UIKit.h>

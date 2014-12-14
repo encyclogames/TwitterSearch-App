@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC70A18A13DC05890009A861 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC70A18913DC05890009A861 /* TweetCell.m */; };
+		BC7974B813DD5BBA0001BB1C /* UpdateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7974B713DD5BBA0001BB1C /* UpdateCell.m */; };
+		BCC0072713DEA5C800F09F39 /* UserTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0072513DEA5C800F09F39 /* UserTable.m */; };
+		BCC0072813DEA5C800F09F39 /* UserTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC0072613DEA5C800F09F39 /* UserTable.xib */; };
 		BCCC2CBC13D859320008B969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCC2CBB13D859320008B969 /* UIKit.framework */; };
 		BCCC2CBE13D859320008B969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCC2CBD13D859320008B969 /* Foundation.framework */; };
 		BCCC2CC013D859320008B969 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCC2CBF13D859320008B969 /* CoreGraphics.framework */; };
@@ -16,23 +20,81 @@
 		BCCC2CCF13D859320008B969 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CCD13D859320008B969 /* MainWindow.xib */; };
 		BCCC2CD213D859320008B969 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCC2CD113D859320008B969 /* RootViewController.m */; };
 		BCCC2CD513D859320008B969 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CD313D859320008B969 /* RootViewController.xib */; };
+		BCCC2D0513D8597F0008B969 /* config in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CDE13D8597E0008B969 /* config */; };
+		BCCC2D0613D8597F0008B969 /* description in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CDF13D8597E0008B969 /* description */; };
+		BCCC2D0713D8597F0008B969 /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE013D8597E0008B969 /* HEAD */; };
+		BCCC2D0813D8597F0008B969 /* applypatch-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE213D8597E0008B969 /* applypatch-msg.sample */; };
+		BCCC2D0913D8597F0008B969 /* commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE313D8597E0008B969 /* commit-msg.sample */; };
+		BCCC2D0A13D8597F0008B969 /* post-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE413D8597E0008B969 /* post-commit.sample */; };
+		BCCC2D0B13D8597F0008B969 /* post-receive.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE513D8597E0008B969 /* post-receive.sample */; };
+		BCCC2D0C13D8597F0008B969 /* post-update.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE613D8597E0008B969 /* post-update.sample */; };
+		BCCC2D0D13D8597F0008B969 /* pre-applypatch.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE713D8597E0008B969 /* pre-applypatch.sample */; };
+		BCCC2D0E13D8597F0008B969 /* pre-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE813D8597E0008B969 /* pre-commit.sample */; };
+		BCCC2D0F13D8597F0008B969 /* pre-rebase.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CE913D8597E0008B969 /* pre-rebase.sample */; };
+		BCCC2D1013D8597F0008B969 /* prepare-commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CEA13D8597E0008B969 /* prepare-commit-msg.sample */; };
+		BCCC2D1113D8597F0008B969 /* update.sample in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CEB13D8597E0008B969 /* update.sample */; };
+		BCCC2D1213D8597F0008B969 /* index in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CEC13D8597E0008B969 /* index */; };
+		BCCC2D1313D8597F0008B969 /* exclude in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CEE13D8597E0008B969 /* exclude */; };
+		BCCC2D1413D8597F0008B969 /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CF013D8597E0008B969 /* HEAD */; };
+		BCCC2D1513D8597F0008B969 /* master in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CF313D8597E0008B969 /* master */; };
+		BCCC2D1613D8597F0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.idx in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CF713D8597E0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.idx */; };
+		BCCC2D1713D8597F0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.pack in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CF813D8597E0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.pack */; };
+		BCCC2D1813D8597F0008B969 /* packed-refs in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CF913D8597E0008B969 /* packed-refs */; };
+		BCCC2D1913D8597F0008B969 /* master in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CFC13D8597E0008B969 /* master */; };
+		BCCC2D1A13D8597F0008B969 /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2CFF13D8597E0008B969 /* HEAD */; };
+		BCCC2D1B13D8597F0008B969 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2D0113D8597E0008B969 /* CHANGELOG.md */; };
+		BCCC2D1C13D8597F0008B969 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCC2D0313D8597E0008B969 /* JSONKit.m */; };
+		BCCC2D1D13D8597F0008B969 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCCC2D0413D8597E0008B969 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC70A18813DC05890009A861 /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
+		BC70A18913DC05890009A861 /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
+		BC7974B613DD5BBA0001BB1C /* UpdateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateCell.h; sourceTree = "<group>"; };
+		BC7974B713DD5BBA0001BB1C /* UpdateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateCell.m; sourceTree = "<group>"; };
+		BCC0072413DEA5C800F09F39 /* UserTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTable.h; sourceTree = "<group>"; };
+		BCC0072513DEA5C800F09F39 /* UserTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTable.m; sourceTree = "<group>"; };
+		BCC0072613DEA5C800F09F39 /* UserTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTable.xib; sourceTree = "<group>"; };
 		BCCC2CB713D859320008B969 /* TwitterSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCC2CBB13D859320008B969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCCC2CBD13D859320008B969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCCC2CBF13D859320008B969 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BCCC2CC313D859320008B969 /* TwitterSearch-Info.plist */ = {isa = PBXFileReference; path = "TwitterSearch-Info.plist"; sourceTree = "<group>"; };
+		BCCC2CC313D859320008B969 /* TwitterSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterSearch-Info.plist"; sourceTree = "<group>"; };
 		BCCC2CC513D859320008B969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BCCC2CC713D859320008B969 /* TwitterSearch-Prefix.pch */ = {isa = PBXFileReference; path = "TwitterSearch-Prefix.pch"; sourceTree = "<group>"; };
+		BCCC2CC713D859320008B969 /* TwitterSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterSearch-Prefix.pch"; sourceTree = "<group>"; };
 		BCCC2CC813D859320008B969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BCCC2CCA13D859320008B969 /* TwitterSearchAppDelegate.h */ = {isa = PBXFileReference; path = TwitterSearchAppDelegate.h; sourceTree = "<group>"; };
+		BCCC2CCA13D859320008B969 /* TwitterSearchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwitterSearchAppDelegate.h; sourceTree = "<group>"; };
 		BCCC2CCB13D859320008B969 /* TwitterSearchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterSearchAppDelegate.m; sourceTree = "<group>"; };
 		BCCC2CCE13D859320008B969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		BCCC2CD013D859320008B969 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		BCCC2CD013D859320008B969 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		BCCC2CD113D859320008B969 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		BCCC2CD413D859320008B969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		BCCC2CDE13D8597E0008B969 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
+		BCCC2CDF13D8597E0008B969 /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description; sourceTree = "<group>"; };
+		BCCC2CE013D8597E0008B969 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		BCCC2CE213D8597E0008B969 /* applypatch-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "applypatch-msg.sample"; sourceTree = "<group>"; };
+		BCCC2CE313D8597E0008B969 /* commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "commit-msg.sample"; sourceTree = "<group>"; };
+		BCCC2CE413D8597E0008B969 /* post-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-commit.sample"; sourceTree = "<group>"; };
+		BCCC2CE513D8597E0008B969 /* post-receive.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-receive.sample"; sourceTree = "<group>"; };
+		BCCC2CE613D8597E0008B969 /* post-update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-update.sample"; sourceTree = "<group>"; };
+		BCCC2CE713D8597E0008B969 /* pre-applypatch.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-applypatch.sample"; sourceTree = "<group>"; };
+		BCCC2CE813D8597E0008B969 /* pre-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-commit.sample"; sourceTree = "<group>"; };
+		BCCC2CE913D8597E0008B969 /* pre-rebase.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-rebase.sample"; sourceTree = "<group>"; };
+		BCCC2CEA13D8597E0008B969 /* prepare-commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "prepare-commit-msg.sample"; sourceTree = "<group>"; };
+		BCCC2CEB13D8597E0008B969 /* update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update.sample; sourceTree = "<group>"; };
+		BCCC2CEC13D8597E0008B969 /* index */ = {isa = PBXFileReference; lastKnownFileType = file; path = index; sourceTree = "<group>"; };
+		BCCC2CEE13D8597E0008B969 /* exclude */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exclude; sourceTree = "<group>"; };
+		BCCC2CF013D8597E0008B969 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		BCCC2CF313D8597E0008B969 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		BCCC2CF713D8597E0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-8d186c94f28e84f27c42b85a0f041d595576b23b.idx"; sourceTree = "<group>"; };
+		BCCC2CF813D8597E0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.pack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-8d186c94f28e84f27c42b85a0f041d595576b23b.pack"; sourceTree = "<group>"; };
+		BCCC2CF913D8597E0008B969 /* packed-refs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "packed-refs"; sourceTree = "<group>"; };
+		BCCC2CFC13D8597E0008B969 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		BCCC2CFF13D8597E0008B969 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		BCCC2D0113D8597E0008B969 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		BCCC2D0213D8597E0008B969 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		BCCC2D0313D8597E0008B969 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		BCCC2D0413D8597E0008B969 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +141,20 @@
 		BCCC2CC113D859320008B969 /* TwitterSearch */ = {
 			isa = PBXGroup;
 			children = (
+				BCCC2CDB13D8597E0008B969 /* JSONKit */,
 				BCCC2CCA13D859320008B969 /* TwitterSearchAppDelegate.h */,
 				BCCC2CCB13D859320008B969 /* TwitterSearchAppDelegate.m */,
 				BCCC2CCD13D859320008B969 /* MainWindow.xib */,
 				BCCC2CD013D859320008B969 /* RootViewController.h */,
 				BCCC2CD113D859320008B969 /* RootViewController.m */,
 				BCCC2CD313D859320008B969 /* RootViewController.xib */,
+				BC70A18813DC05890009A861 /* TweetCell.h */,
+				BC70A18913DC05890009A861 /* TweetCell.m */,
+				BCC0072413DEA5C800F09F39 /* UserTable.h */,
+				BCC0072513DEA5C800F09F39 /* UserTable.m */,
+				BCC0072613DEA5C800F09F39 /* UserTable.xib */,
+				BC7974B613DD5BBA0001BB1C /* UpdateCell.h */,
+				BC7974B713DD5BBA0001BB1C /* UpdateCell.m */,
 				BCCC2CC213D859320008B969 /* Supporting Files */,
 			);
 			path = TwitterSearch;
@@ -99,6 +169,159 @@
 				BCCC2CC813D859320008B969 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCC2CDB13D8597E0008B969 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CDC13D8597E0008B969 /* .git */,
+				BCCC2D0113D8597E0008B969 /* CHANGELOG.md */,
+				BCCC2D0213D8597E0008B969 /* JSONKit.h */,
+				BCCC2D0313D8597E0008B969 /* JSONKit.m */,
+				BCCC2D0413D8597E0008B969 /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		BCCC2CDC13D8597E0008B969 /* .git */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CDD13D8597E0008B969 /* branches */,
+				BCCC2CDE13D8597E0008B969 /* config */,
+				BCCC2CDF13D8597E0008B969 /* description */,
+				BCCC2CE013D8597E0008B969 /* HEAD */,
+				BCCC2CE113D8597E0008B969 /* hooks */,
+				BCCC2CEC13D8597E0008B969 /* index */,
+				BCCC2CED13D8597E0008B969 /* info */,
+				BCCC2CEF13D8597E0008B969 /* logs */,
+				BCCC2CF413D8597E0008B969 /* objects */,
+				BCCC2CF913D8597E0008B969 /* packed-refs */,
+				BCCC2CFA13D8597E0008B969 /* refs */,
+			);
+			path = .git;
+			sourceTree = "<group>";
+		};
+		BCCC2CDD13D8597E0008B969 /* branches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = branches;
+			sourceTree = "<group>";
+		};
+		BCCC2CE113D8597E0008B969 /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CE213D8597E0008B969 /* applypatch-msg.sample */,
+				BCCC2CE313D8597E0008B969 /* commit-msg.sample */,
+				BCCC2CE413D8597E0008B969 /* post-commit.sample */,
+				BCCC2CE513D8597E0008B969 /* post-receive.sample */,
+				BCCC2CE613D8597E0008B969 /* post-update.sample */,
+				BCCC2CE713D8597E0008B969 /* pre-applypatch.sample */,
+				BCCC2CE813D8597E0008B969 /* pre-commit.sample */,
+				BCCC2CE913D8597E0008B969 /* pre-rebase.sample */,
+				BCCC2CEA13D8597E0008B969 /* prepare-commit-msg.sample */,
+				BCCC2CEB13D8597E0008B969 /* update.sample */,
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		BCCC2CED13D8597E0008B969 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CEE13D8597E0008B969 /* exclude */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		BCCC2CEF13D8597E0008B969 /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CF013D8597E0008B969 /* HEAD */,
+				BCCC2CF113D8597E0008B969 /* refs */,
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		BCCC2CF113D8597E0008B969 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CF213D8597E0008B969 /* heads */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		BCCC2CF213D8597E0008B969 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CF313D8597E0008B969 /* master */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		BCCC2CF413D8597E0008B969 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CF513D8597E0008B969 /* info */,
+				BCCC2CF613D8597E0008B969 /* pack */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		BCCC2CF513D8597E0008B969 /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		BCCC2CF613D8597E0008B969 /* pack */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CF713D8597E0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.idx */,
+				BCCC2CF813D8597E0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.pack */,
+			);
+			path = pack;
+			sourceTree = "<group>";
+		};
+		BCCC2CFA13D8597E0008B969 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CFB13D8597E0008B969 /* heads */,
+				BCCC2CFD13D8597E0008B969 /* remotes */,
+				BCCC2D0013D8597E0008B969 /* tags */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		BCCC2CFB13D8597E0008B969 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CFC13D8597E0008B969 /* master */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		BCCC2CFD13D8597E0008B969 /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CFE13D8597E0008B969 /* origin */,
+			);
+			path = remotes;
+			sourceTree = "<group>";
+		};
+		BCCC2CFE13D8597E0008B969 /* origin */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2CFF13D8597E0008B969 /* HEAD */,
+			);
+			path = origin;
+			sourceTree = "<group>";
+		};
+		BCCC2D0013D8597E0008B969 /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tags;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +377,31 @@
 				BCCC2CC613D859320008B969 /* InfoPlist.strings in Resources */,
 				BCCC2CCF13D859320008B969 /* MainWindow.xib in Resources */,
 				BCCC2CD513D859320008B969 /* RootViewController.xib in Resources */,
+				BCCC2D0513D8597F0008B969 /* config in Resources */,
+				BCCC2D0613D8597F0008B969 /* description in Resources */,
+				BCCC2D0713D8597F0008B969 /* HEAD in Resources */,
+				BCCC2D0813D8597F0008B969 /* applypatch-msg.sample in Resources */,
+				BCCC2D0913D8597F0008B969 /* commit-msg.sample in Resources */,
+				BCCC2D0A13D8597F0008B969 /* post-commit.sample in Resources */,
+				BCCC2D0B13D8597F0008B969 /* post-receive.sample in Resources */,
+				BCCC2D0C13D8597F0008B969 /* post-update.sample in Resources */,
+				BCCC2D0D13D8597F0008B969 /* pre-applypatch.sample in Resources */,
+				BCCC2D0E13D8597F0008B969 /* pre-commit.sample in Resources */,
+				BCCC2D0F13D8597F0008B969 /* pre-rebase.sample in Resources */,
+				BCCC2D1013D8597F0008B969 /* prepare-commit-msg.sample in Resources */,
+				BCCC2D1113D8597F0008B969 /* update.sample in Resources */,
+				BCCC2D1213D8597F0008B969 /* index in Resources */,
+				BCCC2D1313D8597F0008B969 /* exclude in Resources */,
+				BCCC2D1413D8597F0008B969 /* HEAD in Resources */,
+				BCCC2D1513D8597F0008B969 /* master in Resources */,
+				BCCC2D1613D8597F0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.idx in Resources */,
+				BCCC2D1713D8597F0008B969 /* pack-8d186c94f28e84f27c42b85a0f041d595576b23b.pack in Resources */,
+				BCCC2D1813D8597F0008B969 /* packed-refs in Resources */,
+				BCCC2D1913D8597F0008B969 /* master in Resources */,
+				BCCC2D1A13D8597F0008B969 /* HEAD in Resources */,
+				BCCC2D1B13D8597F0008B969 /* CHANGELOG.md in Resources */,
+				BCCC2D1D13D8597F0008B969 /* README.md in Resources */,
+				BCC0072813DEA5C800F09F39 /* UserTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +415,10 @@
 				BCCC2CC913D859320008B969 /* main.m in Sources */,
 				BCCC2CCC13D859320008B969 /* TwitterSearchAppDelegate.m in Sources */,
 				BCCC2CD213D859320008B969 /* RootViewController.m in Sources */,
+				BCCC2D1C13D8597F0008B969 /* JSONKit.m in Sources */,
+				BC70A18A13DC05890009A861 /* TweetCell.m in Sources */,
+				BC7974B813DD5BBA0001BB1C /* UpdateCell.m in Sources */,
+				BCC0072713DEA5C800F09F39 /* UserTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +531,7 @@
 				BCCC2CDA13D859320008B969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
